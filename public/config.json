@@ -33,7 +33,7 @@
           ],
           "outArguments": [
           ],
-          "url": "https://sfmc-brad-journey-trigger-8ae1b595f83a.herokuapp.com/journeybuilder/execute"
+          "url": "https://sfmc-trigger-jb-9ae3c62a208c.herokuapp.com/journeybuilder/execute"
         }
       },
     
@@ -42,22 +42,22 @@
         "applicationExtensionKey": "",
         "save":
         {
-            "url": "https://sfmc-brad-journey-trigger-8ae1b595f83a.herokuapp.com/journeybuilder/save",
+            "url": "https://sfmc-trigger-jb-9ae3c62a208c.herokuapp.com/journeybuilder/save",
             "verb": "POST"
         },
         "publish":
         {
-            "url": "https://sfmc-brad-journey-trigger-8ae1b595f83a.herokuapp.com/journeybuilder/publish",
+            "url": "https://sfmc-trigger-jb-9ae3c62a208c.herokuapp.com/journeybuilder/publish",
             "verb": "POST"
         },
         "stop":
         {
-            "url": "https://sfmc-brad-journey-trigger-8ae1b595f83a.herokuapp.com/journeybuilder/stop",
+            "url": "https://sfmc-trigger-jb-9ae3c62a208c.herokuapp.com/journeybuilder/stop",
             "verb": "POST"
         },
         "validate":
         {
-            "url": "https://sfmc-brad-journey-trigger-8ae1b595f83a.herokuapp.com/journeybuilder/validate",
+            "url": "https://sfmc-trigger-jb-9ae3c62a208c.herokuapp.com/journeybuilder/validate",
             "verb": "POST"
         }
     },
