@@ -1,5 +1,5 @@
 {
-  "name": "SFMC Journey Trigger Brad",
+  "name": "sfmc-brad-journey-trigger",
   "version": "1.0.1",
   "description": "Trigger other journey in the journey.",
   "engines": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/leokovaski/sfmc-brad-journey-trigger"
   },
   "keywords": [
     "journey",
@@ -18,7 +18,7 @@
     "salesforce marketing cloud",
     "heroku"
   ],
-  "author": "TheonThai",
+  "author": "Leonardo Kovaski",
   "homepage": "",
   "dependencies": {
     "axios": "^0.21.2",
