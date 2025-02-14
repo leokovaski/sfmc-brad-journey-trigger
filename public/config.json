@@ -1,0 +1,87 @@
+{
+    "workflowApiVersion": "1.1",
+    "metaData":
+    {
+        "icon": "images/icon.png",
+        "iconSmall": "images/iconSmall.png",
+        "backgroundColor": "#9f8e69",
+        "category": "Custom"
+    },
+
+    "type": "REST",
+    "lang":
+    {
+        "en-US":
+        {
+            "name": "JourneyTrigger",
+            "description": "Esse componente aciona uma jornada a partir de outra.",
+            "step1Label": "Configurar"
+        },
+        "pt-BR":
+        {
+            "name": "JourneyTrigger",
+            "description": "Esse componente aciona uma jornada a partir de outra.",
+            "step1Label": "Configurar"
+        }
+    },
+
+      "arguments": {
+        "execute": {
+          "inArguments": [
+            {
+            }
+          ],
+          "outArguments": [
+          ],
+          "url": "https://sfmc-brad-journey-trigger-8ae1b595f83a.herokuapp.com/journeybuilder/execute"
+        }
+      },
+    
+    "configurationArguments":
+    {
+        "applicationExtensionKey": "",
+        "save":
+        {
+            "url": "https://sfmc-brad-journey-trigger-8ae1b595f83a.herokuapp.com/journeybuilder/save",
+            "verb": "POST"
+        },
+        "publish":
+        {
+            "url": "https://sfmc-brad-journey-trigger-8ae1b595f83a.herokuapp.com/journeybuilder/publish",
+            "verb": "POST"
+        },
+        "stop":
+        {
+            "url": "https://sfmc-brad-journey-trigger-8ae1b595f83a.herokuapp.com/journeybuilder/stop",
+            "verb": "POST"
+        },
+        "validate":
+        {
+            "url": "https://sfmc-brad-journey-trigger-8ae1b595f83a.herokuapp.com/journeybuilder/validate",
+            "verb": "POST"
+        }
+    },
+    "userInterfaces":
+    {
+        "configModal": {
+            "height": 500,
+            "width": 500,
+            "fullscreen": false
+        },
+        "runningModal": {
+            "url": "runningModal.html"
+        },
+        "runningHover": {
+            "url": "runningHover.html"
+        }
+    },
+    "schema": 
+    {
+        "arguments":{
+            "execute": {
+                "inArguments": [],
+                "outArguments": []
+            }
+        }
+    }
+}
